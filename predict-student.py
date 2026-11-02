@@ -1,18 +1,32 @@
 from __future__ import annotations
 
+import importlib.util
 import sys
+from pathlib import Path
 
 import pandas as pd
 
-from dropout_model import (
-    DEFAULT_DATA,
-    DEFAULT_MODEL,
-    FEATURES,
-    ID_COLUMN,
-    dropout_percent,
-    load_pipeline,
-    load_students,
-)
+ROOT = Path(__file__).resolve().parent
+
+
+def _load_sibling(filename: str):
+    path = ROOT / filename
+    spec = importlib.util.spec_from_file_location(path.stem.replace("-", "_"), path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Cannot load {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+_model = _load_sibling("dropout-model.py")
+DEFAULT_DATA = _model.DEFAULT_DATA
+DEFAULT_MODEL = _model.DEFAULT_MODEL
+FEATURES = _model.FEATURES
+ID_COLUMN = _model.ID_COLUMN
+dropout_percent = _model.dropout_percent
+load_pipeline = _model.load_pipeline
+load_students = _model.load_students
 
 
 def read_student_id() -> int:

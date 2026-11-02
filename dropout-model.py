@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 from pathlib import Path
 
@@ -13,11 +14,23 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 
-from generate_dataset import DEFAULT_PATH as DEFAULT_DATA
-from generate_dataset import generate
-
 ROOT = Path(__file__).resolve().parent
-DEFAULT_MODEL = ROOT / "models" / "dropout_rf.joblib"
+DEFAULT_MODEL = ROOT / "models" / "dropout-rf-fakedata.joblib"
+
+
+def _load_sibling(filename: str):
+    path = ROOT / filename
+    spec = importlib.util.spec_from_file_location(path.stem.replace("-", "_"), path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Cannot load {path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+_dataset = _load_sibling("generate-dataset.py")
+DEFAULT_DATA = _dataset.DEFAULT_PATH
+generate = _dataset.generate
 
 TARGET = "dropped_out"
 ID_COLUMN = "student_id"

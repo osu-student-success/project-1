@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_PATH = ROOT / "data" / "students.csv"
+DEFAULT_PATH = ROOT / "data" / "fake-students.csv"
 ROW_COUNT = 210
 
 MAJORS = [
