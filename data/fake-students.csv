@@ -1,0 +1,211 @@
+student_id,gpa,credits_fall,credits_winter,credits_spring,hometown,fafsa,parents_graduated_college,major,minor,changed_major,changed_minor,classes_dropped,hours_worked_per_week,lives_on_campus,dropped_out
+1001,3.85,16,15,18,"Toledo, OH",1,0,Mathematics,Music,0,0,0,19,1,0
+1002,3.71,17,16,15,"Flint, MI",0,1,Biology,None,0,0,0,13,1,0
+1003,3.14,14,15,15,"Chicago, IL",1,0,Education,Mathematics,0,0,2,0,0,0
+1004,3.5,13,14,17,"Detroit, MI",0,0,Economics,Mathematics,0,0,2,0,0,0
+1005,4.0,18,17,14,"Cleveland, OH",1,0,Biology,None,1,0,1,18,1,0
+1006,3.81,15,15,11,"Pittsburgh, PA",1,0,Education,Creative Writing,0,0,0,17,0,0
+1007,2.93,15,14,13,"Pittsburgh, PA",0,1,Business,None,0,0,1,0,1,0
+1008,1.85,11,14,10,"Grand Rapids, MI",1,1,Communications,Creative Writing,1,0,3,0,1,0
+1009,3.26,15,16,14,"Grand Rapids, MI",1,0,Political Science,Creative Writing,0,1,1,14,1,0
+1010,2.32,13,14,14,"Pittsburgh, PA",1,1,Engineering,Data Science,0,1,0,12,1,0
+1011,4.0,16,12,17,"Madison, WI",0,1,Engineering,Psychology,0,0,0,14,1,0
+1012,3.03,16,13,14,"Boise, ID",0,0,English,Philosophy,0,1,1,24,1,0
+1013,3.1,17,14,14,"Grand Rapids, MI",1,1,Biology,Art,1,0,0,2,0,1
+1014,2.26,12,12,10,"Detroit, MI",1,0,Economics,Spanish,1,0,4,18,1,1
+1015,2.28,15,13,18,"Boise, ID",1,1,Computer Science,Music,0,0,1,5,1,0
+1016,3.6,15,18,15,"Grand Rapids, MI",0,0,Business,None,1,0,1,26,0,0
+1017,3.99,12,15,15,"Milwaukee, WI",0,0,Chemistry,Spanish,1,1,1,0,1,1
+1018,4.0,15,13,18,"Milwaukee, WI",1,1,Engineering,Philosophy,0,0,0,0,0,0
+1019,1.64,11,6,11,"Columbus, OH",0,0,Communications,None,1,0,2,23,0,1
+1020,2.7,16,9,13,"Minneapolis, MN",1,0,Education,None,0,0,3,0,0,1
+1021,3.05,13,18,15,"Flint, MI",1,0,Mathematics,Philosophy,0,0,0,19,1,0
+1022,2.83,14,9,16,"Denver, CO",1,1,Economics,Sociology,1,1,4,12,0,1
+1023,3.52,15,12,16,"Madison, WI",1,0,Economics,None,0,0,0,0,0,0
+1024,3.28,12,15,11,"Columbus, OH",1,0,English,None,0,0,1,0,0,0
+1025,2.52,13,14,13,"Milwaukee, WI",0,1,Business,None,0,0,2,0,0,0
+1026,3.05,14,9,11,"Chicago, IL",1,0,Education,Statistics,0,0,4,0,0,0
+1027,1.71,9,10,13,"Flint, MI",0,0,History,Psychology,0,0,2,16,0,1
+1028,3.23,14,16,18,"Madison, WI",0,1,Computer Science,Sociology,0,1,0,13,0,0
+1029,2.77,11,12,13,"Detroit, MI",1,0,Political Science,Psychology,0,1,1,16,1,0
+1030,2.13,11,8,14,"Columbus, OH",1,0,Psychology,Creative Writing,0,0,1,0,1,0
+1031,3.77,13,16,15,"Boise, ID",0,0,Political Science,None,0,0,1,0,0,1
+1032,2.81,17,10,12,"Chicago, IL",0,0,Chemistry,Psychology,1,0,1,0,1,0
+1033,2.12,11,11,16,"Lansing, MI",1,0,Education,Data Science,0,1,2,14,1,0
+1034,3.83,13,13,10,"Flint, MI",1,0,Biology,None,0,0,3,14,0,0
+1035,2.97,12,11,17,"Columbus, OH",1,1,Economics,None,0,0,3,17,1,0
+1036,4.0,16,14,14,"Phoenix, AZ",1,1,History,None,1,0,0,0,1,0
+1037,2.31,10,10,14,"Indianapolis, IN",1,1,Economics,Sociology,0,0,6,0,0,1
+1038,2.54,10,10,10,"Austin, TX",0,1,Nursing,Sociology,0,0,6,0,0,1
+1039,3.7,16,12,18,"Austin, TX",1,0,Psychology,Mathematics,0,0,1,18,0,1
+1040,2.8,8,11,16,"Chicago, IL",0,1,Communications,Philosophy,1,0,3,24,1,1
+1041,2.46,10,13,16,"Denver, CO",1,0,Business,Psychology,0,0,2,21,0,0
+1042,2.79,13,10,16,"Phoenix, AZ",1,1,Psychology,Art,0,1,1,0,0,0
+1043,3.14,12,13,13,"Pittsburgh, PA",1,1,History,Business,0,0,2,14,1,0
+1044,2.4,11,15,11,"Toledo, OH",1,0,Business,Psychology,1,0,2,0,1,0
+1045,3.3,14,13,11,"Austin, TX",1,1,Psychology,None,0,0,2,0,0,0
+1046,3.3,18,17,14,"Grand Rapids, MI",1,1,Mathematics,Data Science,1,0,1,11,0,0
+1047,1.31,10,7,12,"Ann Arbor, MI",1,0,Communications,Creative Writing,0,0,4,0,1,0
+1048,2.41,17,10,14,"Madison, WI",1,0,Engineering,None,0,0,1,0,1,0
+1049,3.86,17,14,17,"Chicago, IL",0,0,Nursing,None,0,0,1,0,1,0
+1050,3.07,15,12,12,"Indianapolis, IN",1,0,Nursing,Statistics,0,0,0,21,1,0
+1051,1.95,12,8,9,"Austin, TX",1,1,Mathematics,None,1,0,6,3,1,1
+1052,3.49,15,15,18,"Minneapolis, MN",1,1,Communications,Spanish,1,0,0,1,0,0
+1053,1.61,7,16,10,"Madison, WI",1,0,Engineering,None,0,0,6,33,0,1
+1054,2.23,11,11,14,"Detroit, MI",1,0,Psychology,None,0,0,0,0,0,0
+1055,2.44,13,13,13,"Cleveland, OH",1,1,Mathematics,None,0,0,3,22,0,1
+1056,3.35,15,15,16,"Detroit, MI",0,0,Economics,Mathematics,0,0,0,9,0,0
+1057,2.44,12,13,13,"Detroit, MI",1,0,Political Science,Business,0,0,0,5,0,0
+1058,3.09,12,14,17,"Cleveland, OH",1,1,Mathematics,None,0,0,4,17,0,0
+1059,3.04,13,11,12,"Lansing, MI",1,0,English,Creative Writing,0,0,2,0,1,0
+1060,3.33,15,14,14,"Cleveland, OH",0,0,Economics,Mathematics,1,1,0,15,0,0
+1061,2.47,13,11,13,"Lansing, MI",0,0,Communications,Creative Writing,1,0,2,35,1,1
+1062,1.83,7,10,15,"Pittsburgh, PA",1,0,Biology,Philosophy,0,0,2,0,1,0
+1063,2.67,12,14,11,"Pittsburgh, PA",1,0,Psychology,Business,0,0,4,0,1,0
+1064,2.73,15,10,14,"Chicago, IL",1,1,Business,None,0,0,2,11,1,0
+1065,2.92,12,12,14,"Lansing, MI",0,0,Business,None,0,0,0,23,1,0
+1066,2.4,14,13,11,"Flint, MI",1,1,Biology,None,0,0,2,11,0,0
+1067,2.43,14,11,13,"Cleveland, OH",1,0,Mathematics,Statistics,0,0,3,0,1,0
+1068,2.77,10,14,14,"Austin, TX",1,0,Communications,Psychology,1,0,1,0,0,0
+1069,3.06,12,11,16,"Ann Arbor, MI",1,0,Political Science,Music,0,0,0,0,0,1
+1070,2.51,14,12,14,"Ann Arbor, MI",1,0,Engineering,None,1,0,0,23,1,1
+1071,3.0,11,14,14,"Chicago, IL",1,1,Education,None,0,0,1,0,1,0
+1072,3.27,12,18,14,"Chicago, IL",1,1,Economics,None,1,0,0,4,0,0
+1073,2.11,12,13,12,"Minneapolis, MN",1,0,Mathematics,Sociology,0,0,1,22,1,1
+1074,2.93,11,12,10,"Austin, TX",1,0,Computer Science,Art,0,1,3,22,0,1
+1075,3.22,15,15,14,"Columbus, OH",1,1,Engineering,Art,0,0,3,21,1,1
+1076,2.33,11,9,14,"Cleveland, OH",0,1,Mathematics,None,0,0,0,16,0,0
+1077,3.02,11,10,14,"Milwaukee, WI",1,0,Chemistry,Business,1,0,1,15,1,0
+1078,2.92,11,13,16,"Madison, WI",1,0,Communications,Creative Writing,1,1,0,8,0,0
+1079,2.57,10,13,15,"Phoenix, AZ",0,0,Chemistry,None,1,0,0,16,0,0
+1080,2.83,17,11,14,"Chicago, IL",0,0,Political Science,Sociology,0,0,0,0,1,0
+1081,2.68,11,13,12,"Detroit, MI",1,0,English,Philosophy,0,1,4,3,0,0
+1082,2.46,12,11,16,"Toledo, OH",0,0,Political Science,Art,0,0,3,19,1,1
+1083,2.74,14,14,11,"Detroit, MI",1,1,Communications,Spanish,1,0,0,5,0,0
+1084,2.49,11,13,12,"Boise, ID",1,0,Economics,Sociology,0,0,3,0,0,0
+1085,2.81,9,12,14,"Cleveland, OH",1,0,Nursing,None,0,0,0,8,1,0
+1086,2.25,11,8,14,"Indianapolis, IN",1,0,Biology,Mathematics,0,0,6,0,1,0
+1087,3.07,14,12,11,"Toledo, OH",1,0,Economics,None,1,0,1,16,1,0
+1088,2.1,14,12,12,"Madison, WI",1,0,Engineering,Philosophy,0,1,1,7,0,1
+1089,2.46,10,7,10,"Cleveland, OH",1,0,Political Science,Creative Writing,0,1,3,21,0,1
+1090,2.48,13,14,12,"Chicago, IL",1,1,Business,Data Science,1,0,1,16,1,0
+1091,0.88,7,11,13,"Columbus, OH",0,1,Psychology,None,0,0,2,0,1,1
+1092,2.78,12,15,13,"Pittsburgh, PA",1,1,Biology,Spanish,0,0,3,0,1,1
+1093,3.34,12,16,14,"Austin, TX",0,0,Engineering,None,0,0,1,0,1,0
+1094,3.69,17,13,17,"Pittsburgh, PA",1,0,English,None,0,0,3,0,1,0
+1095,3.59,13,13,15,"Ann Arbor, MI",1,1,Economics,None,0,0,1,9,1,0
+1096,2.74,15,14,12,"Lansing, MI",0,1,Engineering,Statistics,1,0,1,8,1,0
+1097,2.79,15,15,12,"Columbus, OH",1,1,Computer Science,Creative Writing,0,1,0,16,1,0
+1098,2.48,10,8,12,"Chicago, IL",1,1,Biology,Philosophy,0,0,5,18,0,1
+1099,2.39,13,11,15,"Indianapolis, IN",1,1,History,Music,0,0,0,10,1,0
+1100,2.88,17,12,15,"Grand Rapids, MI",1,1,Education,Art,0,1,2,20,1,0
+1101,2.88,13,12,11,"Detroit, MI",0,0,Biology,Statistics,0,1,1,30,1,0
+1102,3.02,16,11,15,"Denver, CO",1,0,History,None,0,0,1,19,0,1
+1103,2.04,11,13,12,"Flint, MI",1,1,Chemistry,Sociology,1,0,2,9,1,0
+1104,2.14,11,13,9,"Grand Rapids, MI",1,0,Communications,None,0,0,6,7,1,0
+1105,2.57,14,14,16,"Cleveland, OH",1,1,Political Science,Art,0,0,2,16,1,1
+1106,2.81,9,11,10,"Phoenix, AZ",1,0,English,Data Science,1,1,1,0,0,1
+1107,2.82,16,14,14,"Madison, WI",0,1,Mathematics,Business,1,0,0,0,0,1
+1108,2.46,15,14,13,"Indianapolis, IN",1,0,Computer Science,Business,0,0,1,19,1,1
+1109,3.38,14,13,13,"Cleveland, OH",1,0,Nursing,Mathematics,0,0,2,13,1,0
+1110,3.14,13,11,15,"Grand Rapids, MI",0,1,Economics,Spanish,0,1,2,0,0,0
+1111,3.15,14,10,11,"Pittsburgh, PA",1,0,Engineering,Spanish,0,0,2,10,1,0
+1112,2.75,14,11,10,"Pittsburgh, PA",1,1,Biology,None,1,0,4,0,1,0
+1113,2.99,15,13,18,"Boise, ID",0,0,Mathematics,None,0,0,2,24,1,1
+1114,1.88,7,7,13,"Toledo, OH",1,0,Chemistry,None,0,0,5,26,1,1
+1115,2.81,12,13,12,"Denver, CO",0,0,Communications,None,0,0,2,15,1,0
+1116,2.5,14,10,14,"Austin, TX",1,0,Education,Art,0,0,0,16,1,0
+1117,2.52,14,12,14,"Columbus, OH",1,0,Political Science,None,0,0,1,0,1,0
+1118,2.86,16,14,13,"Minneapolis, MN",0,1,Political Science,Philosophy,0,0,0,0,0,0
+1119,2.6,14,10,10,"Boise, ID",1,1,Communications,Business,0,0,3,0,0,0
+1120,2.82,13,10,13,"Indianapolis, IN",0,0,Economics,Art,0,1,0,4,1,0
+1121,2.31,12,12,14,"Ann Arbor, MI",1,1,Computer Science,Psychology,0,0,3,0,1,0
+1122,1.8,13,5,10,"Columbus, OH",0,0,Chemistry,Data Science,0,0,3,0,1,1
+1123,2.76,13,13,12,"Detroit, MI",1,1,Chemistry,None,1,0,1,20,1,0
+1124,2.9,14,12,11,"Grand Rapids, MI",1,1,History,None,0,0,2,0,0,1
+1125,1.79,10,9,13,"Detroit, MI",1,1,Business,Mathematics,0,1,1,0,1,1
+1126,2.7,10,17,17,"Austin, TX",1,0,Education,Sociology,0,0,2,13,0,0
+1127,2.24,13,14,16,"Madison, WI",0,1,Computer Science,Business,0,0,0,15,1,0
+1128,2.43,14,12,13,"Madison, WI",0,1,English,Creative Writing,0,0,2,0,0,1
+1129,2.26,14,9,14,"Cleveland, OH",0,1,English,None,0,0,1,1,1,1
+1130,2.46,16,14,11,"Madison, WI",1,0,Computer Science,Mathematics,0,1,0,0,0,0
+1131,1.98,10,12,13,"Milwaukee, WI",1,1,English,None,0,0,5,0,1,0
+1132,2.87,16,13,12,"Indianapolis, IN",1,1,Nursing,None,0,0,2,5,0,0
+1133,2.59,14,11,13,"Lansing, MI",1,0,Nursing,Music,0,1,1,26,1,1
+1134,2.67,13,15,11,"Phoenix, AZ",1,1,Mathematics,None,0,0,0,11,1,0
+1135,3.3,11,13,12,"Toledo, OH",1,0,Engineering,None,0,0,1,21,1,1
+1136,1.83,10,9,13,"Pittsburgh, PA",1,0,Mathematics,Statistics,0,1,6,15,1,1
+1137,3.29,14,12,13,"Pittsburgh, PA",1,1,Nursing,Music,0,0,1,25,1,0
+1138,3.42,17,14,16,"Toledo, OH",1,0,Economics,Art,0,0,0,0,0,0
+1139,3.67,17,15,18,"Boise, ID",1,1,Chemistry,None,0,0,1,2,1,0
+1140,3.1,12,16,12,"Grand Rapids, MI",0,0,Mathematics,None,0,0,1,9,0,0
+1141,2.55,14,17,11,"Columbus, OH",1,0,Communications,Creative Writing,0,0,0,7,1,1
+1142,3.48,13,15,14,"Columbus, OH",1,0,Economics,None,1,0,1,22,0,0
+1143,2.72,16,15,14,"Austin, TX",0,0,Computer Science,Mathematics,0,1,1,0,1,0
+1144,2.42,14,10,16,"Detroit, MI",1,1,Nursing,None,0,0,2,0,0,0
+1145,3.33,14,15,13,"Grand Rapids, MI",1,1,History,None,1,0,0,0,0,0
+1146,2.97,13,11,15,"Indianapolis, IN",0,1,Mathematics,None,0,0,0,0,0,0
+1147,2.62,15,11,9,"Minneapolis, MN",0,0,History,None,0,0,2,6,1,0
+1148,1.95,13,9,11,"Toledo, OH",1,1,Engineering,None,0,0,2,0,1,1
+1149,2.21,15,14,13,"Cleveland, OH",0,1,Mathematics,None,0,0,0,14,0,1
+1150,2.56,10,13,14,"Boise, ID",1,1,Business,Data Science,1,1,2,0,0,0
+1151,3.22,17,13,17,"Cleveland, OH",1,1,Psychology,Creative Writing,0,0,0,0,1,0
+1152,2.51,14,12,13,"Madison, WI",1,0,Economics,None,0,0,2,22,0,1
+1153,2.65,12,11,12,"Madison, WI",1,1,Mathematics,Spanish,1,0,2,13,0,1
+1154,2.88,14,10,17,"Milwaukee, WI",1,1,Engineering,None,0,0,0,0,0,1
+1155,2.81,11,15,16,"Cleveland, OH",1,0,Business,Mathematics,0,1,0,8,1,0
+1156,3.07,10,14,14,"Milwaukee, WI",1,1,Political Science,Music,0,0,2,8,1,0
+1157,2.16,12,10,15,"Flint, MI",0,0,Biology,None,1,0,2,31,0,1
+1158,1.78,11,9,12,"Chicago, IL",1,0,Education,Business,0,0,5,0,1,1
+1159,3.97,14,14,18,"Indianapolis, IN",1,0,Communications,Music,1,0,0,16,1,0
+1160,2.97,15,13,14,"Denver, CO",1,0,Political Science,Art,0,0,0,0,0,0
+1161,3.14,16,13,12,"Ann Arbor, MI",0,1,Political Science,None,1,0,2,6,0,0
+1162,2.86,17,15,13,"Lansing, MI",1,0,Nursing,Data Science,0,0,0,29,1,0
+1163,2.98,15,12,13,"Denver, CO",1,0,History,Philosophy,0,0,0,29,1,1
+1164,2.89,16,12,17,"Austin, TX",1,1,Engineering,Philosophy,0,1,1,21,1,0
+1165,1.67,12,9,8,"Cleveland, OH",1,1,Biology,None,1,0,0,10,0,1
+1166,2.28,13,11,17,"Minneapolis, MN",0,0,Communications,None,1,0,1,0,0,0
+1167,1.7,11,11,10,"Minneapolis, MN",0,0,Business,Sociology,1,1,4,10,0,1
+1168,3.56,17,11,18,"Lansing, MI",1,0,English,Business,0,0,0,30,1,0
+1169,3.76,15,13,14,"Columbus, OH",1,1,Economics,Creative Writing,0,1,2,4,1,1
+1170,1.51,9,5,14,"Cleveland, OH",1,0,Communications,Philosophy,1,0,3,12,0,1
+1171,3.15,16,13,17,"Indianapolis, IN",1,0,Engineering,Creative Writing,1,0,0,0,0,1
+1172,3.1,15,13,14,"Milwaukee, WI",0,0,Business,None,0,0,3,21,0,0
+1173,4.0,18,18,18,"Madison, WI",0,1,History,None,0,0,0,8,1,0
+1174,2.53,12,9,13,"Boise, ID",0,0,Economics,None,0,0,5,0,0,1
+1175,2.98,15,9,16,"Lansing, MI",1,1,Biology,Data Science,1,0,1,6,1,0
+1176,2.33,13,12,10,"Boise, ID",1,1,Chemistry,Art,0,0,1,0,0,0
+1177,2.53,13,9,13,"Detroit, MI",1,1,History,None,0,0,0,13,1,0
+1178,2.09,8,7,11,"Madison, WI",1,1,Biology,Philosophy,0,1,3,0,1,1
+1179,2.94,17,14,14,"Lansing, MI",0,1,Education,Philosophy,0,0,1,0,0,0
+1180,2.05,10,14,14,"Austin, TX",1,0,Biology,None,0,0,3,22,0,1
+1181,1.97,14,10,12,"Boise, ID",1,0,Political Science,Creative Writing,0,0,3,21,1,0
+1182,2.17,9,9,16,"Chicago, IL",0,1,English,Art,0,0,2,0,0,0
+1183,3.23,16,16,12,"Austin, TX",0,0,Computer Science,Psychology,0,0,1,10,0,1
+1184,2.64,8,12,9,"Indianapolis, IN",1,1,Computer Science,None,0,0,3,0,0,0
+1185,2.9,16,15,14,"Denver, CO",0,1,Nursing,Sociology,1,0,3,10,1,1
+1186,2.74,14,10,15,"Columbus, OH",0,0,Biology,None,0,0,2,17,1,1
+1187,3.88,18,13,15,"Milwaukee, WI",1,0,Psychology,None,0,0,0,19,0,0
+1188,2.69,18,11,12,"Madison, WI",0,1,Engineering,None,0,0,2,4,1,0
+1189,2.99,10,11,11,"Indianapolis, IN",0,0,History,Sociology,0,0,5,0,0,0
+1190,3.36,12,10,10,"Flint, MI",0,0,Computer Science,Sociology,0,0,4,4,0,0
+1191,2.59,13,12,14,"Toledo, OH",1,0,History,None,1,0,1,22,1,0
+1192,3.42,10,15,12,"Minneapolis, MN",0,1,Chemistry,None,0,0,4,6,0,0
+1193,2.3,13,9,13,"Minneapolis, MN",1,1,History,Data Science,0,0,3,13,1,0
+1194,3.27,11,14,17,"Milwaukee, WI",1,1,Economics,None,0,0,0,22,1,1
+1195,2.94,16,12,13,"Grand Rapids, MI",1,0,Communications,None,0,0,5,0,1,1
+1196,2.31,15,12,13,"Madison, WI",1,0,Psychology,Mathematics,1,0,1,0,0,1
+1197,2.81,11,13,14,"Ann Arbor, MI",1,0,Biology,Creative Writing,1,1,2,9,1,0
+1198,3.01,17,12,13,"Chicago, IL",1,0,Communications,None,0,0,2,0,1,0
+1199,2.23,12,10,13,"Boise, ID",0,0,Political Science,Sociology,0,0,1,18,0,1
+1200,2.68,14,16,15,"Austin, TX",0,0,Business,None,0,0,0,21,0,0
+1201,3.12,18,16,15,"Minneapolis, MN",1,0,Biology,Creative Writing,0,0,0,22,0,0
+1202,3.74,18,12,16,"Minneapolis, MN",1,0,Mathematics,None,0,0,0,28,1,0
+1203,3.11,13,10,12,"Indianapolis, IN",1,1,Chemistry,Psychology,0,1,1,12,0,0
+1204,3.48,15,11,14,"Phoenix, AZ",0,0,Nursing,Music,1,0,2,32,1,1
+1205,4.0,15,16,13,"Chicago, IL",1,1,Communications,Philosophy,1,0,0,13,1,0
+1206,1.66,12,6,12,"Phoenix, AZ",0,1,Political Science,Spanish,0,0,4,0,1,1
+1207,2.87,15,11,15,"Milwaukee, WI",1,1,Mathematics,Philosophy,0,0,2,0,1,0
+1208,2.06,11,9,9,"Cleveland, OH",0,0,Education,Data Science,1,0,0,17,0,1
+1209,2.24,10,9,9,"Indianapolis, IN",1,0,English,None,0,0,4,0,0,1
+1210,2.49,12,15,15,"Toledo, OH",1,0,Economics,None,1,0,1,21,0,1
