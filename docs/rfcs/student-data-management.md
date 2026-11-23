@@ -7,13 +7,19 @@
 | Author | Trey Trejo |
 | Date | 2026-10-25 |
 | Status | Proposed |
-| Decision Date | 2026-11-7 |
+| Decision Date | 2026-11-30 |
 | Deciders | Project 1 team members |
 | Superseded By | N/A |
 
 ## Problem and Context
-A main issue to solve is figuring out what type of backend architecture is best suited for our Machine Learning at-risk student prediction project. A few issues include deciding where student data will live, how features interact from it, and how predictions get outputted as. Student information systems usually overwrite records, such as a grade or enrollment status. If we do not capture the state of the data as of each cutoff date, we cannot later rebuild what the model would have seen, so we cannot train or evaluate without leakage. Every term we run without capturing these types of data is history we would permanently lack. Moving identifiable student records between environments means getting updated permissions to view and process data.
-The papers I reviewed were not able to show how to resolve the issue of student data permissions. They do not say much about authentication or access control. The systematic review found only 20 of 100 studies addressed ethical issues, and 14 verified on a second dataset, so there is little published operational evidence to lean on. If we do nothing, we will probably end up with a decision to have no periodic data captures and no access controls.
+**Main issue:** Figuring out what type of backend architecture is best suited for our Machine Learning at-risk student prediction project. A few issues include deciding where student data will live, how features interact from it, and how predictions get outputted as. Student information systems usually overwrite records, such as a grade or enrollment status. If we do not capture the state of the data as of each cutoff date, we cannot later rebuild what the model would have seen, so we cannot train or evaluate without leakage. Every term we run without capturing these types of data is history we would permanently lack. Moving identifiable student records between environments means getting updated permissions to view and process data.
+
+**Lost history:** When a grade is corrected or an enrollment status changes, the old value is usually replaced. Suppose we want to know what the model would have predicted for a student in week six of last fall. If we did not save a snapshot in week six, we cannot rebuild that moment, and we can neither train nor test the model without leakage. Leakage matters because a model that quietly sees the future will look excellent in testing and then disappoint in real use. Each term that passes without snapshots is a gap we can never fill.
+Student records are protected. Copying them into a new environment, whether a vendor's cloud, a team server, or a researcher's laptop, needs approvals from the people responsible for the data. The decision about where the data lives therefore also decides which approvals we need and how long they take.
+
+**Research:** The papers I reviewed were not able to show how to resolve the issue of student data permissions. They do not say much about authentication or access control. The systematic review found only 20 of 100 studies addressed ethical issues, and 14 verified on a second dataset, so there is little published operational evidence to lean on. If we do nothing, we will probably end up with a decision to have no periodic data captures and no access controls.
+
+**If we do nothing:** We will most likely end up with no periodic snapshots and no access controls: analysts exporting files by hand, no way to reproduce a past result, and no documented data flow when a compliance review asks for one.
 
 ### Papers Researched:
 #### https://www.mdpi.com/2071-1050/15/19/14512 
@@ -39,7 +45,12 @@ A saved model file is loaded by a small web app, and advisors upload CSVs to obt
 #### Benefits: It is fast to build and easy to demonstrate. 
 #### Costs: no previously captured history for the AI model to train off of, uploaded records have no defined storage or retention, authentication and audit logging would need to be added, and a model never retrained will become less accurate as cohorts change. 
 This is the right choice for a demo on synthetic or public data.
-## Option D: Do Nothing
+## Option D: Team-hosted local environment
+Data is copied from the institution's record into a shared team medium that is locally hosted. 
+#### Benefits: Student data stays under the team's direct control and never leaves campus. There are no vendor fees, and it is practical at the scale of a single institution's cohorts. 
+#### Costs: The team takes on security, patching, backups, and uptime. A single machine is a single point of failure and knowledge held by one or two people is lost when they leave.
+This is the right choice if the institution cannot provide Option A in time or at all for this project and if the number of students is small enough for one host.
+## Option E: Do Nothing
 Analysts keep exporting CSVs and manually running notebooks. The cost is low at first, the first time anyone wants to reproduce a past result the data has already changed, when predictions reach advisors there would be no access control or audit trail, and the compliance review would have no documented data flow. By then the missing data capture history cannot be recovered. This is acceptable only if we commit that no output reaches staff or students.
 
 ## Analysis
@@ -67,9 +78,16 @@ The recommended decision of Option A was made in partnership with Claude AI’s 
 ### What checks made that reasonable 
 CI tests and review gates are not yet implemented but planned to be at the end of this week.
 ### Where I stopped and validated myself
-Because the perioidic data capture and hosting decisions are hard to reverse, I suggest personally verifying the source systems’ retention behavior, the data flow diagram against what IT will actually provide, and the access control rules with a real test account for each role.
+Because the periodic data capture and hosting decisions are hard to reverse, I suggest personally verifying the source systems’ retention behavior, the data flow diagram against what IT will actually provide, and the access control rules with a real test account for each role.
 
 ## Decision
 
-Proposed, until Project 1 team decides. Then accepted, rejected, or superseded by 2026-11-7.
+Proposed, until Project 1 team decides. Then accepted, rejected, or superseded by 2026-11-30.
+
+
+## Revisions
+| Source | Feedback | Decision | Where or why |
+| :--- | :--- | :--- | :--- |
+| Reviewer Sean Gutmann | Adding an option for the team to locally host the data | Changed | It makes sense in terms of utility and productivity with the correct data protection protocols |
+| Reviewer Maxwell McKinney | Need a broader explanation of the problem to improve context and readability | Changed | Difficult to receive quality feedback if the reviewer cannot understand what is being talked about |
 
